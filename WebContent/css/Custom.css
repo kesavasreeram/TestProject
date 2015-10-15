@@ -1,0 +1,151 @@
+/**
+ * Created by Kesava Sreeram T on 9/30/2015.
+ */
+
+/*main*/
+/*{*/
+/*width: 100%;*/
+/*}*/
+
+html,body,div,ul,li,img,nav,section,header,main,p,h1
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    color: white
+}
+
+main
+{
+    background-color: limegreen;
+}
+
+.desk-nav, .tab-nav, .mobile-nav
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: inherit;
+}
+
+.mobile-nav
+{
+    visibility: visible;
+    height: auto;
+}
+
+.tab-nav, .desk-nav
+{
+    visibility: hidden;
+    height: 0;
+}
+
+.header
+{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: inherit;
+}
+
+nav
+{
+    width: 100%;
+}
+
+.container
+{
+    padding: 0; /* Default padding in bootstrap is 15px for right and left as well */
+    margin-top: 0;
+    border-top: 0;
+    width: 100%;
+}
+
+.desk-nav .logoHeader .logo
+{
+    font-size: 2.5em;
+}
+
+.logoHeader
+{
+    padding-bottom: 0.4em;
+}
+
+.logo
+{
+    font-family: "Kelly Ann Gothic", sans-serif;
+    font-weight: 200;
+    color : #FEEEEE;
+    text-decoration: none;
+}
+
+.logo, .navigation
+{
+    background-color: darkgreen;
+}
+
+.tab-nav .logo
+{
+    font-size: 1.3em;
+}
+
+.tab-nav .navigation .nav-item
+{
+    font-size: 1em;
+}
+
+.navigation .nav-item
+{
+    font-family: "Georgia", sans-serif;
+    font-size: 1.4em;
+    color: #FEEEEE;
+}
+
+.navigation .nav > li > a:hover, .logo:hover
+{
+    text-shadow: 0 0 15px #FEEEEE;
+    color: #FEEEEE;
+    background-color: darkgreen;
+}
+
+.navigation .nav > li > a:focus
+{
+    background-color: darkgreen;
+    color: #FEEEEE;
+}
+
+
+
+/** Banner **/
+.banner
+{
+    width: 100%;
+}
+
+.banner img
+{
+    max-width: 100%;
+}
+
+/**Menu**/
+#b
+{
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+.tab-nav .logoHeader, .tab-nav .navigation
+{
+    width: 100%;
+    padding: 0;
+}
+
+.tab-nav .row, .tab-nav .col-sm-3, .tab-nav .col-sm-9, .tab-nav .col-sm-12
+{
+    padding: 0;
+    margin: 0;
+}

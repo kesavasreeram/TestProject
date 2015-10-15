@@ -1,0 +1,98 @@
+/**
+ * Created by Kesava Sreeram T on 9/30/2015.
+ */
+
+/* From boostrap website */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px)
+{
+    .nav >li, .nav-justified > li
+    {
+        display:list-item;
+        width: 100%;
+    }
+
+    .tab-nav
+    {
+        visibility: hidden;
+        height: 0;
+        display :none;
+    }
+
+    .expaned-nav
+    {
+        visibility: hidden;
+        height: 0;
+        display :none;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .mobile-nav
+    {
+        visibility: hidden;
+        height: 0;
+        display: none;
+    }
+
+    .tab-nav
+    {
+        visibility: visible;
+        height: auto;
+        display: block;
+    }
+
+    .desk-nav
+    {
+        visibility: hidden;
+        height: 0;
+        display: none;
+    }
+}
+
+/** not needed normally but for the images in gallery this might be needed */
+@media (min-width: 800px)
+{
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+    nav a
+    {
+        font-size: 1.5em;
+    }
+
+    .mobile-nav
+    {
+        visibility: hidden;
+        height: 0;
+        display: none;
+    }
+
+    .tab-nav
+    {
+        visibility: hidden;
+        height: 0;
+        display: none;
+    }
+
+    .desk-nav
+    {
+        visibility: visible;
+        height: auto;
+        display: block;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+
+
+}

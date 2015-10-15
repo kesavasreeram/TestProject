@@ -1,0 +1,151 @@
+<!--
+Author: Kesava Sreeram T
+Date  : 9/30/2015
+-->
+<!DOCTYPE html>
+
+<!-- CSS styles for older browsers was not implemented at the moment, but can
+be implemented in the classes specified -->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+
+<!--[if (gt IE 9)|!(IE)]>
+<html lang="en">
+<![endif]-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- adding HTML5 Tags to browsers before IE 9 (ploy fill)  -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- In order to make sure that the content is sized to fit the screen, so we'll add a viewport meta tag -->
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1">
+
+
+    <!--  Boot strap styles -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- animation styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+
+    <!-- Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Project-UI/CSS/Custom.css" />
+    <link rel="stylesheet" href="Project-UI/CSS/RWD.css" />
+    <link rel="stylesheet" href="Project-UI/CSS/Fonts.css" />
+    <title>TKS Chain of hotels</title>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+
+            <div class="mobile-nav">
+                <section class="col-xs-6">
+                    <p class="logo" role = "button">TKS Hotels</p>
+                </section>
+                <section class="col-xs-6 menu-nav">
+                    <div class="title-index">
+                    </div>
+                    <ul class="dropdown-nav">
+                        <li>
+                            <a href="#home" role = "button" class="nav-item active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#menu" role = "button" class="nav-item">Menu</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">Make a Reservation</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">About US</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">Login</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- everything in Same row, just because we dont want to reduce the nav
+             menu into a list item right now also dont want to reduce the font size-->
+            <div class="tab-nav">
+                <nav class="navigation">
+                    <ul class="nav nav-justified">
+                        <li>
+                            <p class="logo" role = "button">TKS Hotels</p>
+                        </li>
+                        <li>
+                            <a href="#home" role = "button" class="nav-item active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#menu" role = "button" class="nav-item">Menu</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">Make a Reservation</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">About US</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="desk-nav">
+                <section class="logoHeader">
+                    <p class="logo" role = "button">TKS Hotels</p>
+                </section>
+                <nav class="navigation">
+                    <ul class="nav nav-justified">
+                        <li>
+                            <a href="#home" role = "button" class="nav-item active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#b" role = "button" class="nav-item">Menu</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">Make a Reservation</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">About US</a>
+                        </li>
+                        <li>
+                            <a href="" role = "button" class="nav-item">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="home"></div>
+        <section class="banner">
+            <img src = "Project-UI/IMAGES/Seating.jpg" alt = "Biriyani"/>
+        </section>
+        <section id="meu">
+
+        </section>
+        <footer>
+            <p>Copyright 2014 | All Rights Reserved | -- Kesava Sreeram T</p>
+        </footer>
+    </main>
+
+
+
+    <!-- Javascript and Jquery files -->
+    <script data-require="jquery" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="Project-UI/JS/JQscripts.js"></script>
+    <script src="Project-UI/JS/JSscripts.js"></script>
+</body>
+</html>
